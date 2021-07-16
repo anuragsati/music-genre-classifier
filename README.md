@@ -1,3 +1,7 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -39,6 +43,13 @@
       <ul>
         <li><a href="#project-overview">Project Overview</a></li>
         <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+	<li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
@@ -89,9 +100,38 @@ Music genre classifier uses these technologies to run.
 * [Librosa](https://librosa.org/doc/latest/index.html#)
 * [Matplotlib](https://matplotlib.org/)
 
-
-
 <br>
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+Getting started with this project is very easy. Follown Prerequisites and installation guidelines.
+
+### Prerequisites
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/your_username_/Project-Name.git
+   ```
+1. Download [Processed GTZAN DATASET](https://drive.google.com/file/d/1jWMGOAhQU9UODtLpPV-6hL-Fx5KIzY6o/view?usp=sharing). 
+1. Paste your downloaded dataset (data.json) to `/assets`
+
+1. Install NPM packages
+   ```sh
+	npm install
+   ```
+
+### Installation
+
+1. To Run the project run : 
+   ```sh
+	npm run start
+   ```
+1. To Build the project into an executable binary run : 
+	```sh
+	npm run build 
+	```
 
 <!-- LICENSE -->
 ## License
@@ -119,17 +159,21 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 * [Batch Normalization](https://machinelearningmastery.com/batch-normalization-for-training-of-deep-neural-networks/)
 * [Sparse_categorial_crossentropy](https://en.wikipedia.org/wiki/Cross_entropy)
 
-<br>
-<br>
-<br>
-<br>
-<br>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/anuragsati/music-genre-classifier/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/anuragsati/music-genre-classifier/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/anuragsati/music-genre-classifier/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/anuragsati/music-genre-classifier/issuess
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/anuragsati/music-genre-classifier/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: https://drive.google.com/uc?id=1LHdohcWRz7yqFrtxA9nXV2-qh6bbH-66
 
+
+[product-screenshot]: https://drive.google.com/uc?id=1LHdohcWRz7yqFrtxA9nXV2-qh6bbH-66

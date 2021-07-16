@@ -107,7 +107,7 @@ def function_to_run_only_once():
 
 
 	# ===================  TRAINING CNN  ======================
-	model.fit(x_train, y_train, validation_data=(x_validation, y_validation), batch_size=32, epochs=60)
+	model.fit(x_train, y_train, validation_data=(x_validation, y_validation), batch_size=32, epochs=45)
 
 
 

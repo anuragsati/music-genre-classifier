@@ -1,6 +1,10 @@
 __pycache__
 data.json
+*.icns
 .DS_Store
+Music-darwin-x64
+
+
 # Logs
 
 logs
