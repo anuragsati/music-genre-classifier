@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Music Genre Classifier | CNN</title>
+
+	<link rel="stylesheet" href="./CNN.css">
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@3.4.1/dist/chart.min.js"></script>
+
+</head>
+<body>
+	<a href="../../index.html" class="home">
+		<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"  viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M132.30769,13.4375c-3.64363,0 -6.61538,2.97176 -6.61538,6.61538v31.62981l-34.9375,-34.9375c-2.58413,-2.58413 -6.92548,-2.58413 -9.50962,0l-77.52404,77.73077c-2.58413,2.58413 -2.58413,6.71875 0,9.30288c2.58413,2.58413 6.71875,2.58413 9.30288,0l72.97596,-72.97596l73.18269,73.18269c1.29207,1.29207 3.04928,2.06731 4.75481,2.06731c1.70553,0 3.25601,-0.77524 4.54808,-2.06731c2.58413,-2.58413 2.58413,-6.71875 0,-9.30288l-22.94712,-22.94712v-51.68269c0,-3.64363 -2.97176,-6.61538 -6.61538,-6.61538zM86,43l-72.76923,72.76923v36.38462c0,10.95673 8.88942,19.84615 19.84615,19.84615h105.84615c10.95673,0 19.84615,-8.88942 19.84615,-19.84615v-36.38462zM72.76923,105.84615h26.46154c3.64363,0 6.61538,2.97176 6.61538,6.61538v39.69231c0,3.64363 -2.97176,6.61538 -6.61538,6.61538h-26.46154c-3.64363,0 -6.61538,-2.97176 -6.61538,-6.61538v-39.69231c0,-3.64363 2.97176,-6.61538 6.61538,-6.61538z"></path></g></g></svg>
+	</a>
+
+	<div class="container">
+		<div class="left-div">
+			<div class="left-top">
+				<div class="topic">Classify using CNN</div>
+				<div class="select">
+					<div class="please-select">Please pick an audio to classify</div>
+					<div class="select-wrapper">
+						<!-- <div class="select-button"> -->
+						<button id="select-button" onclick="showFileBox()"> Select a File ...</button>
+						<!-- </div> -->
+
+						<button class="run-button" onclick="submitFile()">Submit</button> 
+					</div>
+
+				</div>
+			</div>
+			<div class="left-bottom">
+				<div class="projects">
+					<span class="projects-title">Projects</span>
+					<span class="no-of-projects">(3)</span>
+				</div>
+
+				<div class="projects-wrapper">
+					<div class="actual-project-wrapper">
+						<a href="#" class="actual-project first-project">
+							<span>CNN</span>
+						</a>
+						<span class="project-description">Run CNN</span>
+					</div>
+
+					<div class="actual-project-wrapper">
+						<a href="../MFCC/MFCC.html" class="actual-project second-project">
+							<span>MFCC</span>
+						</a>
+						<span class="project-description">Analyse</span>
+					</div>
+
+					<div class="actual-project-wrapper">
+						<a href="#" class="actual-project third-project">
+							<span>MLP</span>
+						</a>
+						<span class="project-description">Run MLP</span>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="right-div">
+			<div class="main">
+				<span class="main-topic">CNN Predictions</span>
+				<div class="fetched-content">
+					<div class="music-label">
+						<span class="genre-label-text">Genre :</span>
+						<span class="genre-label">None</span>
+					</div>
+
+					<div class="predictions-chart">
+						<div class="spinner">
+							<div class="rect1"></div>
+							<div class="rect2"></div>
+							<div class="rect3"></div>
+							<div class="rect4"></div>
+							<div class="rect5"></div>
+						</div>
+
+						<canvas id='myChart'></canvas>
+					</div>
+				</div>
+		</div>
+	</div>	
+
+
+
+	<script src="./CNN.js"></script>
+</body>
+</html>

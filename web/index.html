@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Music Genre Classifier</title>
+
+	<link rel="stylesheet" href="./index.css">
+
+	<script>
+		const shell = require('electron').shell
+
+		function open_in_default_browser(url){
+			shell.openExternal(url)
+		}
+
+	</script>
+
+</head>
+<body>
+	<a href="#" class="home">
+		<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"  viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M132.30769,13.4375c-3.64363,0 -6.61538,2.97176 -6.61538,6.61538v31.62981l-34.9375,-34.9375c-2.58413,-2.58413 -6.92548,-2.58413 -9.50962,0l-77.52404,77.73077c-2.58413,2.58413 -2.58413,6.71875 0,9.30288c2.58413,2.58413 6.71875,2.58413 9.30288,0l72.97596,-72.97596l73.18269,73.18269c1.29207,1.29207 3.04928,2.06731 4.75481,2.06731c1.70553,0 3.25601,-0.77524 4.54808,-2.06731c2.58413,-2.58413 2.58413,-6.71875 0,-9.30288l-22.94712,-22.94712v-51.68269c0,-3.64363 -2.97176,-6.61538 -6.61538,-6.61538zM86,43l-72.76923,72.76923v36.38462c0,10.95673 8.88942,19.84615 19.84615,19.84615h105.84615c10.95673,0 19.84615,-8.88942 19.84615,-19.84615v-36.38462zM72.76923,105.84615h26.46154c3.64363,0 6.61538,2.97176 6.61538,6.61538v39.69231c0,3.64363 -2.97176,6.61538 -6.61538,6.61538h-26.46154c-3.64363,0 -6.61538,-2.97176 -6.61538,-6.61538v-39.69231c0,-3.64363 2.97176,-6.61538 6.61538,-6.61538z"></path></g></g></svg>
+	</a>
+
+	<div class="container">
+		<div class="left-div">
+			<div class="left-top">
+				<div class="topic">Music Genre Classifier</div>
+				<div class="select">
+					<div class="please-select">Classify your music on the go.</div>
+				</div>
+			</div>
+			<div class="left-bottom">
+				<div class="projects">
+					<span class="projects-title">Projects</span>
+					<span class="no-of-projects">(3)</span>
+				</div>
+
+				<div class="projects-wrapper">
+					<div class="actual-project-wrapper">
+						<a href="./components/CNN/CNN.html" class="actual-project first-project">
+							<span>CNN</span>
+						</a>
+						<span class="project-description">Run CNN</span>
+					</div>
+
+					<div class="actual-project-wrapper">
+						<a href="./components/MFCC/MFCC.html" class="actual-project second-project">
+							<span>MFCC</span>
+						</a>
+						<span class="project-description">Analyse</span>
+					</div>
+
+					<div class="actual-project-wrapper">
+						<a href="#" class="actual-project third-project">
+							<span>MLP</span>
+						</a>
+						<span class="project-description">Run MLP</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="right-div">
+			<div class="main">
+				<span class="main-topic">About This Classifier</span>
+
+				<div class="features-list">
+					<span class="features-list-topic">1. Classification classes</span>
+					<span class="features-list-explaination">
+						Classify any music into 10 genres.
+						<br>
+						<span class="music-class">pop</span>
+						<span class="music-class">metal</span>
+						<span class="music-class">disco</span>
+						<span class="music-class">blues</span>
+						<span class="music-class">reggae</span>
+						<span class="music-class">classical</span>
+						<span class="music-class">rock</span>
+						<span class="music-class">hiphop</span>
+						<span class="music-class">country</span>
+						<span class="music-class">jazz</span>
+					</span>
+				</div>
+
+				<div class="features-list">
+					<span class="features-list-topic">2. Accuracy</span>
+					<span class="features-list-explaination">
+						This model guarantees 75.6% accuracy rate.
+					</span>
+				</div>
+
+				<div class="features-list">
+					<span class="features-list-topic">3. Dataset used</span>
+					<span class="features-list-explaination">
+						Used <a onclick='open_in_default_browser("https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification")' target="_blank">This</a> dataset by Andrada Olteanu from Kaggle.
+					</span>
+				</div>
+
+				<div class="features-list">
+					<span class="features-list-topic">4. References</span>
+					<span class="features-list-explaination">
+						<span class="resourses-credits">
+							<a onclick='open_in_default_browser("https://www.kdnuggets.com/2020/02/audio-data-analysis-deep-learning-python-part-1.html")' target="_blank">Audio data analysis</a> by Nagesh Singh Chauhan.
+						</span>
+						<span class="resourses-credits">
+							<a onclick='open_in_default_browser("https://www.youtube.com/watch?v=iCwMQJnKk2c&list=PL-wATfeyAMNqIee7cH3q1bh4QJFAaeNv0")' target="_blank">Audio Signal Processing</a> for Machine Learning by Valerio Velardo - The Sound of AI.
+						</span>
+						<span class="resourses-credits">
+							<a onclick='open_in_default_browser("https://www.youtube.com/watch?v=fMqL5vckiU0&list=PL-wATfeyAMNrtbkCNsLcpoAyBBRJZVlnf")' target="_blank">Deep Learning</a> (for Audio) by Valerio Velardo - The Sound of AI.
+						</span>
+					</span>
+				</div>    
+
+			</div>
+			<div class="creator-credit">
+				Developed by Anurag sati, 2021
+			</div>
+		</div>
+	</div>	
+
+</body>
+</html>
