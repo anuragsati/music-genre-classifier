@@ -54,7 +54,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
----
 
 <!-- image here -->
 [![Product Name Screen Shot][product-screenshot]](https://github.com/anuragsati/music-genre-classifier)
@@ -96,7 +95,6 @@ Music genre classifier uses these technologies to run.
 
 <!-- LICENSE -->
 ## License
----
 Distributed under the MIT License.
 
 
@@ -104,7 +102,6 @@ Distributed under the MIT License.
 
 <!-- CONTACT -->
 ## Contact
----
 Anurag sati - anuragsati7@gmail.com
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
@@ -114,7 +111,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 <!-- references -->
 ## References
----
 * [Audio Data Analysis](https://www.kdnuggets.com/2020/02/audio-data-analysis-deep-learning-python-part-1.html)
 * [Audio signal processing](https://www.youtube.com/watch?v=iCwMQJnKk2c&list=PL-wATfeyAMNqIee7cH3q1bh4QJFAaeNv0)
 * [Deep Learning for audio](https://www.youtube.com/watch?v=fMqL5vckiU0&list=PL-wATfeyAMNrtbkCNsLcpoAyBBRJZVlnf)
