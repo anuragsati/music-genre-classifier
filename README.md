@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://github.com/anuragsati/music-genre-classifier">
-    <img src="https://drive.google.com/uc?id=1eODLntpRQvoDIFCCnDHYmuJ8gkhniaDM" width=200 height=200 />
+    <img src="https://drive.google.com/uc?id=1Qi-8GIRn72lynkGN-g9gQOcZB9XT3ENG" width=200 height=200 />
   </a>                      
 
   <h1 align="center">Music Genre Classifier</h1>
