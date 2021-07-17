@@ -124,14 +124,18 @@ Getting started with this project is very easy. Follown Prerequisites and instal
 
 ### Installation
 
-1. To Run the project run : 
+1. Run the backend server using (**Necessary**):
+   ```sh
+	python3 ./backend/main.py
+   ```
+1. Run the project using : 
    ```sh
 	npm run start
    ```
-1. To Build the project into an executable binary run : 
+<!-- 1. To Build the project into an executable binary run : 
 	```sh
 	npm run build 
-	```
+	``` -->
 
 <!-- LICENSE -->
 ## License
