@@ -177,7 +177,7 @@ Project Link: [https://github.com/anuragsati/music-genre-classifier](https://git
 [license-shield]: https://img.shields.io/github/license/anuragsati/music-genre-classifier.svg?style=for-the-badge
 [license-url]: https://github.com/anuragsati/music-genre-classifier/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://www.linkedin.com/in/anurag-sati/
 
 
 [product-screenshot]: https://drive.google.com/uc?id=1LHdohcWRz7yqFrtxA9nXV2-qh6bbH-66
