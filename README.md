@@ -112,7 +112,7 @@ Getting started with this project is very easy. Follown Prerequisites and instal
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/anuragsati/music-genre-classifier.git
    ```
 1. Download [Processed GTZAN DATASET](https://drive.google.com/file/d/1jWMGOAhQU9UODtLpPV-6hL-Fx5KIzY6o/view?usp=sharing). 
 1. Paste your downloaded dataset (data.json) to `/assets`
@@ -148,7 +148,7 @@ Distributed under the MIT License.
 ## Contact
 Anurag sati - anuragsati7@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/anuragsati/music-genre-classifier](https://github.com/anuragsati/music-genre-classifier)
 
 
 <br>
@@ -177,7 +177,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [license-shield]: https://img.shields.io/github/license/anuragsati/music-genre-classifier.svg?style=for-the-badge
 [license-url]: https://github.com/anuragsati/music-genre-classifier/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://www.linkedin.com/in/anurag-sati/
 
 
 [product-screenshot]: ./preview/preview.png
