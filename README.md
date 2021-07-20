@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://github.com/anuragsati/music-genre-classifier">
-    <img src="https://drive.google.com/uc?id=1Qi-8GIRn72lynkGN-g9gQOcZB9XT3ENG" width=200 height=200 />
+    <img src="./preview/logo.svg" width=200 height=200 />
   </a>                      
 
   <h1 align="center">Music Genre Classifier</h1>
@@ -180,4 +180,4 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [linkedin-url]: https://linkedin.com/in/othneildrew
 
 
-[product-screenshot]: https://drive.google.com/uc?id=1LHdohcWRz7yqFrtxA9nXV2-qh6bbH-66
+[product-screenshot]: ./preview/preview.png
